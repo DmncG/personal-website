@@ -1,0 +1,8 @@
+@import '../../scss/variables';
+
+.home{
+  &-container__div{
+    background: linear-gradient($retro-yellow, $retro-red, $retro-pink, $retro-green);
+    min-height: 1000px;
+  }
+}

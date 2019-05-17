@@ -1,0 +1,8 @@
+@import '../../scss/variables';
+
+.about{
+  &-container__div{
+    background-color: $modern-cream;
+    min-height: 1000px;
+  }
+}
