@@ -21,6 +21,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <div className="app-about__div">
+      
+      </div>
     </div>
   );
 }
