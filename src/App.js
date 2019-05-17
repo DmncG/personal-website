@@ -1,6 +1,6 @@
 import React from 'react';
 import ViewHome from './views/ViewHome';
-import './App.scss';
+import './scss/index.scss';
 
 function App() {
   return (

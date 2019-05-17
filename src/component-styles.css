@@ -1,0 +1,7 @@
+.about-container__div {
+  background-color: #fff5da;
+  min-height: 1000px; }
+
+.home-container__div {
+  background: linear-gradient(#f5c63f, #ff4d4d, #d4677f, #798c6c);
+  min-height: 1000px; }
