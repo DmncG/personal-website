@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Waypoint } from 'react-waypoint';
 import { About, Home } from '../../components';
 
 class ViewHome extends Component {
@@ -6,20 +7,8 @@ class ViewHome extends Component {
     super(props);
     this.state = {
       scrollY: window.scrollY,
-      inVal: false,
+      inVal: false
     };
-  }
-
-  componentDidMount() {
-    window.addEventListener('scroll', this.handleScroll);
-  }
-
-  componentWillUnmount() {
-    window.removeEventListener('scroll', this.handleScroll);
-  }
-
-  handleScroll = () => {
-    this.setState({ scrollY: window.scrollY });
   }
 
   bgToggle = () => {
@@ -31,12 +20,16 @@ class ViewHome extends Component {
     return 'home';
   }
 
+  aboutOnEnter = () => this.setState({ inVal: true });
+
+  aboutOnLeave = () => this.setState({ inVal: false });
+
   render() {
-    const { scrollY, inVal } = this.state;
+    const { inVal } = this.state;
     return (
-      <div className={`viewhome-container__div viewhome-container__div--${this.bgToggle()}`}>
+      <div className="viewhome-container__div">
         <Home />
-        <About scrollY={scrollY} inVal={inVal} />
+        <About inVal={inVal} aboutOnEnter={this.aboutOnEnter} aboutOnLeave={this.aboutOnLeave} />
       </div>
     );
   }

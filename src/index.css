@@ -1,5 +1,6 @@
 .about-container__div {
-  min-height: 1000px; }
+  min-height: 1000px;
+  background-color: #fff5da; }
 
 .about-photo-bg__div {
   width: 300px;
@@ -28,15 +29,10 @@
   width: 100%;
   transition: .5s all ease; }
 
-.viewhome-container__div {
-  transition: all 300ms ease-in-out; }
-  .viewhome-container__div--home {
-    background: linear-gradient(#f5c63f, #ff4d4d, #d4677f, #798c6c); }
-  .viewhome-container__div--about {
-    background: #fff5da; }
-  @media only screen and (min-width: 1024px) {
-    .viewhome-container__div-container__div {
-      max-width: 1024px; } }
+@media only screen and (min-width: 1024px) {
+  .viewhome-container__div-container__div {
+    max-width: 1240px;
+    margin: auto; } }
 
 .App {
   text-align: center; }
