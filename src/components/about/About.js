@@ -1,9 +1,14 @@
 import React from 'react';
+import Fade from '@material-ui/core/Fade';
+import './_about.scss';
 
-const About = () => (
-  <div className="about-container__div">
-    About Component
-  </div>
-);
+// Transition Styles
+
+const About = (props) => {
+  const { scrollY, inVal } = props;
+  return (
+    
+  )
+};
 
 export default About;

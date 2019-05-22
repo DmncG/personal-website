@@ -1,7 +1,29 @@
 .about-container__div {
-  background-color: #fff5da;
   min-height: 1000px; }
 
+.about-photo-bg__div {
+  width: 300px;
+  height: 500px;
+  background-color: #fff; }
+
+.about-bg-text__p {
+  font-family: "Yeseva One", cursive;
+  color: #5d5d5d;
+  font-size: 100px; }
+
+@media only screen and (min-width: 766px) {
+  .about-bg-text__p {
+    font-family: "Yeseva One", cursive;
+    color: #5d5d5d;
+    font-size: 150px; } }
+
+@media only screen and (min-width: 1023px) {
+  .about-bg-text__p {
+    font-family: "Yeseva One", cursive;
+    color: #5d5d5d;
+    font-size: 200px; } }
+
 .home-container__div {
-  background: linear-gradient(#f5c63f, #ff4d4d, #d4677f, #798c6c);
-  min-height: 1000px; }
+  min-height: 1000px;
+  width: 100%;
+  transition: .5s all ease; }

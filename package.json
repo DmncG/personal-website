@@ -15,8 +15,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test ./src/tests",
-    "build-css": "node-sass ./src/index.scss -o ./src",
-    "watch-css": "npm run build-css && node-sass ./src/index.scss -o ./src --watch --recursive",
+    "build-css": "node-sass ./src/scss/index.scss -o ./src",
+    "watch-css": "npm run build-css && node-sass ./src/scss/index.scss -o ./src --watch --recursive",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -35,6 +35,7 @@
     ]
   },
   "devDependencies": {
+    "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-import": "^2.17.2",

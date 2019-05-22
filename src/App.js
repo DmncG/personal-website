@@ -1,5 +1,5 @@
 import React from 'react';
-import ViewHome from './views/ViewHome';
+import ViewHome from './views/viewhome/ViewHome';
 import './scss/index.scss';
 
 function App() {

@@ -2,7 +2,32 @@
 
 .about{
   &-container__div{
-    background-color: $modern-cream;
     min-height: 1000px;
+  }
+  &-photo-bg__div{
+    width: 300px;
+    height: 500px;
+    background-color: #fff;
+  }
+  &-bg-text__p{
+    font-family: $block-font;
+    color: #5d5d5d;
+    font-size: 100px;
+  }
+
+  @media only screen and (min-width: 766px) {
+    &-bg-text__p{
+      font-family: $block-font;
+      color: #5d5d5d;
+      font-size: 150px;
+    }
+  }
+
+  @media only screen and (min-width: 1023px) {
+    &-bg-text__p{
+      font-family: $block-font;
+      color: #5d5d5d;
+      font-size: 200px;
+    }
   }
 }

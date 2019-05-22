@@ -1,13 +1,71 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+.about-container__div {
+  min-height: 1000px; }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
+.about-photo-bg__div {
+  width: 300px;
+  height: 500px;
+  background-color: #fff; }
+
+.about-bg-text__p {
+  font-family: "Yeseva One", cursive;
+  color: #5d5d5d;
+  font-size: 100px; }
+
+@media only screen and (min-width: 766px) {
+  .about-bg-text__p {
+    font-family: "Yeseva One", cursive;
+    color: #5d5d5d;
+    font-size: 150px; } }
+
+@media only screen and (min-width: 1023px) {
+  .about-bg-text__p {
+    font-family: "Yeseva One", cursive;
+    color: #5d5d5d;
+    font-size: 200px; } }
+
+.home-container__div {
+  min-height: 1000px;
+  width: 100%;
+  transition: .5s all ease; }
+
+.viewhome-container__div {
+  transition: all 300ms ease-in-out; }
+  .viewhome-container__div--home {
+    background: linear-gradient(#f5c63f, #ff4d4d, #d4677f, #798c6c); }
+  .viewhome-container__div--about {
+    background: #fff5da; }
+  @media only screen and (min-width: 1024px) {
+    .viewhome-container__div-container__div {
+      max-width: 1024px; } }
+
+.App {
+  text-align: center; }
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none; }
+
+.App-header {
+  background: linear-gradient(#f5c63f, #ff4d4d, #d4677f, #798c6c);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white; }
+
+.App-link {
+  color: #61dafb; }
+
+.app-about__div {
+  width: 100%;
+  background-color: #fff6dc;
+  min-height: 1000px; }
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }

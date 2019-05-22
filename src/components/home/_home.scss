@@ -2,7 +2,8 @@
 
 .home{
   &-container__div{
-    background: linear-gradient($retro-yellow, $retro-red, $retro-pink, $retro-green);
     min-height: 1000px;
+    width: 100%;
+    transition: .5s all ease;
   }
 }

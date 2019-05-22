@@ -1,0 +1,19 @@
+@import '../../scss/variables';
+
+.viewhome{
+  &-container__div{
+    &--home{
+      // background: $retro-bg;
+    }
+    &--about{
+      // background: $modern-cream;
+    }
+
+    @media only screen and (min-width: 1024px) {
+      &-container__div{
+        max-width: 1240px;
+        margin: auto;
+      }
+    }
+  }
+}
